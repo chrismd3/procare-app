@@ -9,6 +9,7 @@ gem 'karafka-web'
 gem 'puma'
 gem 'rails', '~> 7.0'
 gem 'pg'
+gem 'rake'
 
 group :development, :test do
   gem 'karafka-testing'
