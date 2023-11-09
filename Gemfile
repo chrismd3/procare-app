@@ -2,7 +2,7 @@
 
 source 'https://rubygems.org'
 
-plugin 'diffend'
+# plugin 'diffend'
 
 gem 'karafka', '>= 2.2.4'
 gem 'karafka-web'

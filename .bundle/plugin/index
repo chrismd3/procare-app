@@ -1,0 +1,12 @@
+---
+commands:
+  secure: "diffend"
+hooks:
+  before-install-all:
+  - "diffend"
+load_paths:
+  diffend:
+  - "/home/chris/procare-app/.bundle/plugin/gems/diffend-0.2.54/lib"
+plugin_paths:
+  diffend: "/home/chris/procare-app/.bundle/plugin/gems/diffend-0.2.54"
+sources:

@@ -222,6 +222,7 @@ DEPENDENCIES
   pg
   puma
   rails (~> 7.0)
+  rake
   rspec
 
 BUNDLED WITH

@@ -1,0 +1,7 @@
+project_id: <%= ENV['DIFFEND_PROJECT_ID'] %>
+shareable_id: <%= ENV['DIFFEND_SHAREABLE_ID'] %>
+shareable_key: <%= ENV['DIFFEND_SHAREABLE_KEY'] %>
+env: <%= ENV['DIFFEND_ENV'] || 'development' %>
+ignore_errors: <%= ENV['DIFFEND_IGNORE_ERRORS'] || 'true' %>
+development: <%= ENV['DIFFEND_DEVELOPMENT'] || 'true' %>
+execute: <%= ENV['DIFFEND_EXECUTE'] || 'true' %>
